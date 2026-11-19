@@ -1,0 +1,546 @@
+[
+ {
+  "id": "art-001",
+  "slug": "strates-aube",
+  "title": "Strates — Aube",
+  "description": "Collines en couches sous un soleil orangé.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 2800,
+  "height": 1400,
+  "orientation": "panoramique",
+  "dominantColors": [
+   "#F6DFC8",
+   "#412C27",
+   "#C37555",
+   "#855342",
+   "#E9BE9E"
+  ],
+  "categories": [
+   "paysages",
+   "minimalisme"
+  ],
+  "mood": [
+   "chaleureux",
+   "apaisant"
+  ],
+  "src": "/art/strates-aube.webp",
+  "thumb": "/art/strates-aube-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-002",
+  "slug": "strates-nuit",
+  "title": "Strates — Nocturne",
+  "description": "Variation nocturne, lune pâle et reliefs bleus.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 2800,
+  "height": 1400,
+  "orientation": "panoramique",
+  "dominantColors": [
+   "#21394F",
+   "#17273A",
+   "#111E31",
+   "#0C1620",
+   "#546A7D"
+  ],
+  "categories": [
+   "paysages"
+  ],
+  "mood": [
+   "profond",
+   "calme"
+  ],
+  "src": "/art/strates-nuit.webp",
+  "thumb": "/art/strates-nuit-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-003",
+  "slug": "seigaiha-indigo",
+  "title": "Seigaiha — Indigo",
+  "description": "Motif de vagues traditionnel japonais, réinterprété en indigo.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 2400,
+  "height": 1600,
+  "orientation": "paysage",
+  "dominantColors": [
+   "#1C395E",
+   "#436688",
+   "#9CABB5",
+   "#FAF2E2",
+   "#E8E4D9"
+  ],
+  "categories": [
+   "art-japonais",
+   "oceans",
+   "geometrie"
+  ],
+  "mood": [
+   "calme",
+   "élégant"
+  ],
+  "src": "/art/seigaiha-indigo.webp",
+  "thumb": "/art/seigaiha-indigo-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-004",
+  "slug": "seigaiha-or",
+  "title": "Seigaiha — Or & Noir",
+  "description": "Version noir et or pour hôtels et restaurants.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 2400,
+  "height": 1600,
+  "orientation": "paysage",
+  "dominantColors": [
+   "#1C1A18",
+   "#B09458",
+   "#CCAA62",
+   "#685A3B",
+   "#E0C687"
+  ],
+  "categories": [
+   "art-japonais",
+   "geometrie"
+  ],
+  "mood": [
+   "luxe",
+   "élégant"
+  ],
+  "src": "/art/seigaiha-or.webp",
+  "thumb": "/art/seigaiha-or-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-005",
+  "slug": "bauhaus-primaire",
+  "title": "Bauhaus — Primaire",
+  "description": "Grille de formes primaires inspirée du Bauhaus.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 2400,
+  "height": 2400,
+  "orientation": "carre",
+  "dominantColors": [
+   "#F8F7F3",
+   "#111213",
+   "#F2C55C",
+   "#EF763E",
+   "#30384E"
+  ],
+  "categories": [
+   "geometrie",
+   "art-contemporain",
+   "enfance"
+  ],
+  "mood": [
+   "énergique",
+   "ludique"
+  ],
+  "src": "/art/bauhaus-primaire.webp",
+  "thumb": "/art/bauhaus-primaire-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-006",
+  "slug": "bauhaus-terre",
+  "title": "Bauhaus — Terres",
+  "description": "Palette terracotta et olive, adaptée aux bureaux.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 2400,
+  "height": 2400,
+  "orientation": "carre",
+  "dominantColors": [
+   "#B65C3B",
+   "#E9C9A0",
+   "#6E7356",
+   "#42382F",
+   "#DDD2C2"
+  ],
+  "categories": [
+   "geometrie",
+   "minimalisme"
+  ],
+  "mood": [
+   "chaleureux",
+   "naturel"
+  ],
+  "src": "/art/bauhaus-terre.webp",
+  "thumb": "/art/bauhaus-terre-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-007",
+  "slug": "flux-solaire",
+  "title": "Flux — Solaire",
+  "description": "Rubans de couleur ondulants, très vifs.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 3000,
+  "height": 1500,
+  "orientation": "panoramique",
+  "dominantColors": [
+   "#1C1C26",
+   "#F4BA4A",
+   "#F5883C",
+   "#9D3B47",
+   "#668461"
+  ],
+  "categories": [
+   "art-abstrait",
+   "street-art"
+  ],
+  "mood": [
+   "énergique",
+   "vibrant"
+  ],
+  "src": "/art/flux-solaire.webp",
+  "thumb": "/art/flux-solaire-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-008",
+  "slug": "flux-lagon",
+  "title": "Flux — Lagon",
+  "description": "Bandes aquatiques pour piscines et espaces bien-être.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 3000,
+  "height": 1500,
+  "orientation": "panoramique",
+  "dominantColors": [
+   "#2A8F8F",
+   "#0C2E3B",
+   "#186073",
+   "#76C1BD",
+   "#D8E8E5"
+  ],
+  "categories": [
+   "art-abstrait",
+   "oceans"
+  ],
+  "mood": [
+   "apaisant",
+   "frais"
+  ],
+  "src": "/art/flux-lagon.webp",
+  "thumb": "/art/flux-lagon-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-009",
+  "slug": "foret-brume",
+  "title": "Forêt — Brume",
+  "description": "Sapins en couches dans la brume matinale.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 3200,
+  "height": 1400,
+  "orientation": "panoramique",
+  "dominantColors": [
+   "#E0E5DD",
+   "#1F3428",
+   "#3E5645",
+   "#A8B8A8",
+   "#1E3227"
+  ],
+  "categories": [
+   "forets",
+   "nature",
+   "paysages"
+  ],
+  "mood": [
+   "apaisant",
+   "naturel"
+  ],
+  "src": "/art/foret-brume.webp",
+  "thumb": "/art/foret-brume-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-010",
+  "slug": "botanique-nuit",
+  "title": "Botanique — Nuit verte",
+  "description": "Feuillage dense sur fond vert profond.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 2600,
+  "height": 1600,
+  "orientation": "paysage",
+  "dominantColors": [
+   "#10241B",
+   "#89A06C",
+   "#2A4F3B",
+   "#0E2219",
+   "#0F241B"
+  ],
+  "categories": [
+   "botanique",
+   "nature"
+  ],
+  "mood": [
+   "luxe",
+   "profond"
+  ],
+  "src": "/art/botanique-nuit.webp",
+  "thumb": "/art/botanique-nuit-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-011",
+  "slug": "botanique-clair",
+  "title": "Botanique — Jardin clair",
+  "description": "Feuillage pastel sur fond crème.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 2600,
+  "height": 1600,
+  "orientation": "paysage",
+  "dominantColors": [
+   "#F3F0E8",
+   "#C8B798",
+   "#F2F0E7",
+   "#F4F2EA",
+   "#F4F0E9"
+  ],
+  "categories": [
+   "botanique",
+   "nature",
+   "enfance"
+  ],
+  "mood": [
+   "doux",
+   "lumineux"
+  ],
+  "src": "/art/botanique-clair.webp",
+  "thumb": "/art/botanique-clair-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-012",
+  "slug": "arches-sable",
+  "title": "Arches — Sable",
+  "description": "Arches emboîtées, format portrait.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 2000,
+  "height": 2600,
+  "orientation": "portrait",
+  "dominantColors": [
+   "#F8F7F3",
+   "#D2A07D",
+   "#914F3B",
+   "#E9DAC7",
+   "#F9F8F4"
+  ],
+  "categories": [
+   "minimalisme",
+   "architecture"
+  ],
+  "mood": [
+   "doux",
+   "élégant"
+  ],
+  "src": "/art/arches-sable.webp",
+  "thumb": "/art/arches-sable-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-013",
+  "slug": "confettis",
+  "title": "Confettis",
+  "description": "Formes colorées pour crèches et salles de jeux.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 3000,
+  "height": 1500,
+  "orientation": "panoramique",
+  "dominantColors": [
+   "#FFF8ED",
+   "#C7B3A8",
+   "#FFFAEF",
+   "#FFF8EB",
+   "#FDF8EC"
+  ],
+  "categories": [
+   "enfance",
+   "pedagogie"
+  ],
+  "mood": [
+   "ludique",
+   "joyeux"
+  ],
+  "src": "/art/confettis.webp",
+  "thumb": "/art/confettis-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-014",
+  "slug": "houle",
+  "title": "Houle",
+  "description": "Lignes de houle, effet panoramique.",
+  "author": "Studio DOERZ (génératif)",
+  "source": "internal",
+  "sourceUrl": null,
+  "license": "Création originale — cession au client à formaliser",
+  "commercialUse": true,
+  "modificationAllowed": true,
+  "attribution": null,
+  "width": 3200,
+  "height": 1300,
+  "orientation": "panoramique",
+  "dominantColors": [
+   "#CDDCE0",
+   "#E2EBED",
+   "#9FB8C2",
+   "#F1F3F1",
+   "#F5F5F2"
+  ],
+  "categories": [
+   "oceans",
+   "minimalisme"
+  ],
+  "mood": [
+   "calme",
+   "apaisant"
+  ],
+  "src": "/art/houle.webp",
+  "thumb": "/art/houle-thumb.webp",
+  "rightsStatus": "validated",
+  "printQualityStatus": "vector_regenerable",
+  "aiGenerated": false
+ },
+ {
+  "id": "art-900",
+  "slug": "jungle-concept",
+  "title": "Jungle — concept IA",
+  "description": "Fresque tropicale extraite de la vidéo de référence fournie.",
+  "author": "Généré par IA (Gemini) pour le client",
+  "source": "client_upload",
+  "sourceUrl": null,
+  "license": "À vérifier (conditions Gemini + propriété client)",
+  "commercialUse": null,
+  "modificationAllowed": null,
+  "attribution": null,
+  "width": 910,
+  "height": 432,
+  "orientation": "panoramique",
+  "dominantColors": [
+   "#56503D",
+   "#313B30",
+   "#676A4C",
+   "#7C805E",
+   "#9B9B78"
+  ],
+  "categories": [
+   "botanique",
+   "nature",
+   "forets"
+  ],
+  "mood": [
+   "luxuriant",
+   "vibrant"
+  ],
+  "src": "/art/jungle-concept.webp",
+  "thumb": "/art/jungle-concept-thumb.webp",
+  "rightsStatus": "pending",
+  "printQualityStatus": "insufficient_resolution",
+  "aiGenerated": true
+ }
+]

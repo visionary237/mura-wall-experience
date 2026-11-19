@@ -1,0 +1,34 @@
+{
+  "name": "DOERZ — Réception demande de devis (murale)",
+  "nodes": [
+    { "id": "1", "name": "Webhook devis", "type": "n8n-nodes-base.webhook", "typeVersion": 2, "position": [0, 0],
+      "parameters": { "httpMethod": "POST", "path": "wall-lead", "responseMode": "responseNode" } },
+    { "id": "2", "name": "Valider payload", "type": "n8n-nodes-base.if", "typeVersion": 2, "position": [220, 0],
+      "parameters": { "conditions": { "combinator": "and", "conditions": [
+        { "leftValue": "={{ $json.body.consents.processing }}", "operator": { "type": "boolean", "operation": "true" } },
+        { "leftValue": "={{ $json.body.contact.email }}", "rightValue": "@", "operator": { "type": "string", "operation": "contains" } },
+        { "leftValue": "={{ $json.body.schemaVersion }}", "rightValue": "1.0", "operator": { "type": "string", "operation": "equals" } } ] } } },
+    { "id": "3", "name": "HubSpot — upsert contact", "type": "n8n-nodes-base.hubspot", "typeVersion": 2, "position": [460, -120], "disabled": true,
+      "parameters": { "resource": "contact", "operation": "upsert", "email": "={{ $json.body.contact.email }}",
+        "additionalFields": { "firstName": "={{ $json.body.contact.firstName }}", "lastName": "={{ $json.body.contact.lastName }}", "companyName": "={{ $json.body.contact.organisation }}", "phoneNumber": "={{ $json.body.contact.phone }}" } } },
+    { "id": "4", "name": "HubSpot — créer deal", "type": "n8n-nodes-base.hubspot", "typeVersion": 2, "position": [700, -120], "disabled": true,
+      "parameters": { "resource": "deal", "operation": "create", "stage": "={{ $('Webhook devis').item.json.body.score >= 50 ? 'qualifiedtobuy' : 'appointmentscheduled' }}",
+        "additionalFields": { "dealName": "={{ 'Mur ' + ($('Webhook devis').item.json.body.contact.organisation || $('Webhook devis').item.json.body.contact.lastName) + ' — ' + ($('Webhook devis').item.json.body.project.surfaceM2 || '?') + ' m²' }}", "description": "={{ JSON.stringify($('Webhook devis').item.json.body.project) }}" } } },
+    { "id": "5", "name": "Notifier commercial", "type": "n8n-nodes-base.emailSend", "typeVersion": 2, "position": [940, -120], "disabled": true,
+      "parameters": { "toEmail": "commercial@example.com", "subject": "={{ '[Lead ' + $('Webhook devis').item.json.body.score + '] ' + $('Webhook devis').item.json.body.segment + ' — ' + $('Webhook devis').item.json.body.location.postalCode }}", "text": "={{ JSON.stringify($('Webhook devis').item.json.body, null, 2) }}" } },
+    { "id": "6", "name": "Brevo — confirmation", "type": "n8n-nodes-base.sendInBlue", "typeVersion": 1, "position": [1180, -120], "disabled": true,
+      "parameters": { "resource": "email", "operation": "sendTemplate", "templateId": 0, "receipients": "={{ $('Webhook devis').item.json.body.contact.email }}" } },
+    { "id": "7", "name": "Répondre 200", "type": "n8n-nodes-base.respondToWebhook", "typeVersion": 1, "position": [1420, 0], "parameters": { "respondWith": "json", "responseBody": "={{ { ok: true, ref: $('Webhook devis').item.json.body.id } }}" } },
+    { "id": "8", "name": "Répondre 422", "type": "n8n-nodes-base.respondToWebhook", "typeVersion": 1, "position": [460, 140], "parameters": { "respondWith": "json", "responseCode": 422, "responseBody": "={{ { ok: false } }}" } }
+  ],
+  "connections": {
+    "Webhook devis": { "main": [[{ "node": "Valider payload", "type": "main", "index": 0 }]] },
+    "Valider payload": { "main": [[{ "node": "HubSpot — upsert contact", "type": "main", "index": 0 }], [{ "node": "Répondre 422", "type": "main", "index": 0 }]] },
+    "HubSpot — upsert contact": { "main": [[{ "node": "HubSpot — créer deal", "type": "main", "index": 0 }]] },
+    "HubSpot — créer deal": { "main": [[{ "node": "Notifier commercial", "type": "main", "index": 0 }]] },
+    "Notifier commercial": { "main": [[{ "node": "Brevo — confirmation", "type": "main", "index": 0 }]] },
+    "Brevo — confirmation": { "main": [[{ "node": "Répondre 200", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": { "note": "Nœuds CRM désactivés : connecter les credentials HubSpot/Brevo/SMTP du client, tester en staging, puis activer." }
+}

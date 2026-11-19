@@ -1,0 +1,501 @@
+{
+  "project": "DOERZ — Wall Printing Digital Experience",
+  "generated": "2026-11-19",
+  "resources": [
+    {
+      "id": "b38d6090",
+      "file": "b38d6090-gemini_generated_video_6e806996.mp4",
+      "sha256_16": "6db9071c04ce6050",
+      "kind": "video",
+      "nature": "ai_generated",
+      "subject": "Salon : mur blanc puis apparition progressive d'une fresque jungle, caméra fixe, 10 s.",
+      "usage": "hero_scene_1",
+      "publishable": true,
+      "note": "Exploitée en séquence d'images pilotée au scroll (36 frames) + frame 0 comme environnement démo du Studio. Mention « Concept généré par IA » obligatoire.",
+      "owner": "MURA (fourni par le client)"
+    },
+    {
+      "id": "f53e49f7",
+      "file": "f53e49f7-image.gif",
+      "sha256_16": "bc87f52ea0db83bd",
+      "kind": "animation",
+      "nature": "ai_generated",
+      "subject": "Machine verticale sur rail imprimant une fresque florale.",
+      "usage": "scene_3_concept",
+      "publishable": true,
+      "note": "Ce n'est pas la machine réelle de l'entreprise : à remplacer par un tournage réel. Converti en MP4.",
+      "owner": "MURA (fourni par le client)"
+    },
+    {
+      "id": "a209fced",
+      "file": "a209fced-image.png",
+      "sha256_16": "a66f6bc85bef9804",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Opérateur devant une imprimante verticale, fresque forêt brumeuse.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 766,
+      "height": 768,
+      "orientation": "carre",
+      "dominant_colors": [
+        "#332F28",
+        "#B7ABA2",
+        "#7F7566",
+        "#D2CBC8",
+        "#EAE4E1"
+      ]
+    },
+    {
+      "id": "96175514",
+      "file": "96175514-image.png",
+      "sha256_16": "0f243a7545cf2fce",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Opérateur avec télécommande, œuvre abstraite, hall d'hôtel.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 790,
+      "height": 593,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#060A0A",
+        "#C27C3F",
+        "#70452B",
+        "#531814",
+        "#826A3F"
+      ]
+    },
+    {
+      "id": "9666b5d4",
+      "file": "9666b5d4-image.png",
+      "sha256_16": "734e38a0919a3e2d",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Restaurant, fresque tropicale sur fond vert sombre.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 788,
+      "height": 591,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#32271A",
+        "#10110C",
+        "#554A37",
+        "#74644B",
+        "#9A8E6E"
+      ]
+    },
+    {
+      "id": "3584d42f",
+      "file": "3584d42f-image.png",
+      "sha256_16": "2a1ed969ee96d719",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Visuel marketing d'un fabricant de machines (marque visible).",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Machine réelle de MURA (Baiketech). Page Technologie + scène 3.",
+      "owner": "MURA (fourni par le client)",
+      "width": 787,
+      "height": 779,
+      "orientation": "carre",
+      "dominant_colors": [
+        "#AF9493",
+        "#FFFFFF",
+        "#584C61",
+        "#D8D6D3",
+        "#FEFFFC"
+      ]
+    },
+    {
+      "id": "933b3acc",
+      "file": "933b3acc-image.png",
+      "sha256_16": "2f83810f4be2c811",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Salle de réunion, fresque portrait/aigle/perroquet.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 789,
+      "height": 577,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#77777B",
+        "#70595E",
+        "#272931",
+        "#AC9E89",
+        "#D3D498"
+      ]
+    },
+    {
+      "id": "a87a61dd",
+      "file": "a87a61dd-image.png",
+      "sha256_16": "33686e0841d5ed17",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Restaurant, banquette bleue, fresque botanique rose.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 793,
+      "height": 526,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#071924",
+        "#826C58",
+        "#B49B80",
+        "#5F4A39",
+        "#312622"
+      ]
+    },
+    {
+      "id": "3bb48845",
+      "file": "3bb48845-image.png",
+      "sha256_16": "22742b60f983026d",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Restaurant, fresque florale sombre, damier marbre.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 787,
+      "height": 728,
+      "orientation": "carre",
+      "dominant_colors": [
+        "#D0A076",
+        "#0D100E",
+        "#5F3E2D",
+        "#1D1A14",
+        "#392018"
+      ]
+    },
+    {
+      "id": "932f76bd",
+      "file": "932f76bd-image.png",
+      "sha256_16": "580f85d06c06f651",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Café, fresque botanique fuchsia, banquette bleue.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 790,
+      "height": 721,
+      "orientation": "carre",
+      "dominant_colors": [
+        "#0E0E1C",
+        "#5D353E",
+        "#A0756D",
+        "#C19F8B",
+        "#E6C9A4"
+      ]
+    },
+    {
+      "id": "402d5daa",
+      "file": "402d5daa-image.png",
+      "sha256_16": "e82855fc2e428e94",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Machine sur pieds devant une fresque aquarium 3D.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 787,
+      "height": 787,
+      "orientation": "carre",
+      "dominant_colors": [
+        "#93B6B6",
+        "#6C8188",
+        "#DADAC5",
+        "#9FCED0",
+        "#EBF1EA"
+      ]
+    },
+    {
+      "id": "f45fdb7e",
+      "file": "f45fdb7e-image.png",
+      "sha256_16": "a7dc8c6d98f9f501",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Machine d'une marque tierce, paysage d'arche rocheuse.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé). Recadré : machine d’une autre marque recadrée hors champ.",
+      "owner": "MURA (fourni par le client)",
+      "width": 789,
+      "height": 446,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#332627",
+        "#83584E",
+        "#BABAB7",
+        "#9E9B95",
+        "#D8D7D1"
+      ]
+    },
+    {
+      "id": "6365be25",
+      "file": "6365be25-image.png",
+      "sha256_16": "72454bc3554ec75b",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Restaurant lumineux, fresque botanique avec paon, chaises roses.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 700,
+      "height": 463,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#7A7C75",
+        "#4A423D",
+        "#D3D5D8",
+        "#B0B2AE",
+        "#E2E4E5"
+      ]
+    },
+    {
+      "id": "bb1757cc",
+      "file": "bb1757cc-image.png",
+      "sha256_16": "205cb1249005245d",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Restaurant, fresque arbres rosés sur fond noir.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 781,
+      "height": 807,
+      "orientation": "carre",
+      "dominant_colors": [
+        "#40271A",
+        "#17100B",
+        "#765037",
+        "#AB8866",
+        "#DECFB7"
+      ]
+    },
+    {
+      "id": "d4953493",
+      "file": "d4953493-image.png",
+      "sha256_16": "a969c05dd3094ac8",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Salon, réinterprétation de La Grande Vague (Hokusai).",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 777,
+      "height": 444,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#868C86",
+        "#B4B6B3",
+        "#404040",
+        "#D4D3CF",
+        "#F0F1EF"
+      ]
+    },
+    {
+      "id": "c5e2c7e8",
+      "file": "c5e2c7e8-image.png",
+      "sha256_16": "edfba03cde87e494",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Couloir d'école, fresque « monde et continents » avec portrait et citation d'une personnalité.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 785,
+      "height": 518,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#B1ACA7",
+        "#324651",
+        "#83949A",
+        "#C3C6C5",
+        "#A0AEB3"
+      ]
+    },
+    {
+      "id": "9c0cd8af",
+      "file": "9c0cd8af-image.png",
+      "sha256_16": "d2e2127d441f9a37",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Piscine, fresque marine dauphins/tortue.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 746,
+      "height": 289,
+      "orientation": "panoramique",
+      "dominant_colors": [
+        "#889196",
+        "#655C65",
+        "#ECF2EF",
+        "#B3C5C4",
+        "#E3D3C9"
+      ]
+    },
+    {
+      "id": "19482859",
+      "file": "19482859-image.png",
+      "sha256_16": "bb88fee0f803c224",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Salon, vagues japonaises noir et or.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 775,
+      "height": 679,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#D4C5B4",
+        "#0A090B",
+        "#918475",
+        "#544535",
+        "#2C231B"
+      ]
+    },
+    {
+      "id": "f382a0a2",
+      "file": "f382a0a2-image.png",
+      "sha256_16": "51721a8000226e73",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Couloir d'école, fresque fleuve/bateau/espace.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé).",
+      "owner": "MURA (fourni par le client)",
+      "width": 771,
+      "height": 468,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#5E4A4D",
+        "#8B767F",
+        "#B5A7AD",
+        "#ECE3E4",
+        "#CAD4C3"
+      ]
+    },
+    {
+      "id": "6372fade",
+      "file": "6372fade-image.png",
+      "sha256_16": "fdd2a14c00d0e8aa",
+      "kind": "image",
+      "nature": "client_owned",
+      "subject": "Piscine, fresque marine ; un enfant est visible.",
+      "usage": "gallery",
+      "publishable": true,
+      "note": "Publié dans la galerie MURA (kind = visuel tant que réel/rendu non précisé). Recadré : enfant identifiable recadré hors champ.",
+      "owner": "MURA (fourni par le client)",
+      "width": 773,
+      "height": 570,
+      "orientation": "paysage",
+      "dominant_colors": [
+        "#879EA4",
+        "#A0B2B7",
+        "#656F7E",
+        "#B7CAD5",
+        "#E6E9EA"
+      ]
+    }
+  ],
+  "derived_assets": [
+    {
+      "path": "public/media/hero-seq/f001..f036.webp",
+      "from_": "b38d6090",
+      "usage": "Scène 1, scrub au scroll"
+    },
+    {
+      "path": "public/media/gallery/*.webp",
+      "from_": "18 images client",
+      "usage": "Galerie, secteurs, réalisations, technologie"
+    },
+    {
+      "path": "public/media/hero-reveal.mp4",
+      "from_": "b38d6090",
+      "usage": "Fallback vidéo / showreel"
+    },
+    {
+      "path": "public/media/rooms/salon-blank.jpg",
+      "from_": "b38d6090 frame 0",
+      "usage": "Environnement démo Studio + avant/après"
+    },
+    {
+      "path": "public/media/rooms/salon-final.jpg",
+      "from_": "b38d6090 dernière frame",
+      "usage": "Avant/après"
+    },
+    {
+      "path": "public/media/printer-concept.mp4",
+      "from_": "f53e49f7",
+      "usage": "Scène 3"
+    },
+    {
+      "path": "public/art/*.webp",
+      "from_": "scripts/generate_art.py",
+      "usage": "Collection originale Art Explorer"
+    }
+  ],
+  "missing_assets": [
+    {
+      "asset": "Logo MURA et coordonnées (le nom MURA est validé)",
+      "priority": "P1"
+    },
+    {
+      "asset": "Référence exacte du modèle Baiketech (pour la fiche technique : résolution, hauteur max, supports, encres)",
+      "priority": "P0",
+      "blocker": true
+    },
+    {
+      "asset": "Grille tarifaire réelle (m², minimum, déplacement, préparation)",
+      "priority": "P0",
+      "blocker": true,
+      "why": "Le moteur tarifaire reste en mode démo d'ici là"
+    },
+    {
+      "asset": "Réalisations authentiques avec autorisation de publication (avant/après alignés)",
+      "priority": "P1"
+    },
+    {
+      "asset": "Photos d'environnement à mur vide : chambre, cuisine, salle de jeux, bureau, restaurant, hôtel, école, crèche, piscine, hôpital, commerce",
+      "priority": "P1",
+      "why": "Studio : seul le salon existe (frame 0 de la vidéo)"
+    },
+    {
+      "asset": "Témoignages clients réels et autorisés",
+      "priority": "P2"
+    },
+    {
+      "asset": "Mentions légales, politique de confidentialité, CGV",
+      "priority": "P1"
+    },
+    {
+      "asset": "Clés API (Unsplash/Pexels) et endpoint webhook n8n/CRM",
+      "priority": "P2"
+    }
+  ]
+}

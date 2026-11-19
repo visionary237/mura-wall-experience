@@ -1,0 +1,187 @@
+[
+ {
+  "slug": "strates-aube",
+  "title": "Strates — Aube",
+  "categories": [
+   "paysages",
+   "minimalisme"
+  ],
+  "mood": [
+   "chaleureux",
+   "apaisant"
+  ],
+  "description": "Collines en couches sous un soleil orangé."
+ },
+ {
+  "slug": "strates-nuit",
+  "title": "Strates — Nocturne",
+  "categories": [
+   "paysages"
+  ],
+  "mood": [
+   "profond",
+   "calme"
+  ],
+  "description": "Variation nocturne, lune pâle et reliefs bleus."
+ },
+ {
+  "slug": "seigaiha-indigo",
+  "title": "Seigaiha — Indigo",
+  "categories": [
+   "art-japonais",
+   "oceans",
+   "geometrie"
+  ],
+  "mood": [
+   "calme",
+   "élégant"
+  ],
+  "description": "Motif de vagues traditionnel japonais, réinterprété en indigo."
+ },
+ {
+  "slug": "seigaiha-or",
+  "title": "Seigaiha — Or & Noir",
+  "categories": [
+   "art-japonais",
+   "geometrie"
+  ],
+  "mood": [
+   "luxe",
+   "élégant"
+  ],
+  "description": "Version noir et or pour hôtels et restaurants."
+ },
+ {
+  "slug": "bauhaus-primaire",
+  "title": "Bauhaus — Primaire",
+  "categories": [
+   "geometrie",
+   "art-contemporain",
+   "enfance"
+  ],
+  "mood": [
+   "énergique",
+   "ludique"
+  ],
+  "description": "Grille de formes primaires inspirée du Bauhaus."
+ },
+ {
+  "slug": "bauhaus-terre",
+  "title": "Bauhaus — Terres",
+  "categories": [
+   "geometrie",
+   "minimalisme"
+  ],
+  "mood": [
+   "chaleureux",
+   "naturel"
+  ],
+  "description": "Palette terracotta et olive, adaptée aux bureaux."
+ },
+ {
+  "slug": "flux-solaire",
+  "title": "Flux — Solaire",
+  "categories": [
+   "art-abstrait",
+   "street-art"
+  ],
+  "mood": [
+   "énergique",
+   "vibrant"
+  ],
+  "description": "Rubans de couleur ondulants, très vifs."
+ },
+ {
+  "slug": "flux-lagon",
+  "title": "Flux — Lagon",
+  "categories": [
+   "art-abstrait",
+   "oceans"
+  ],
+  "mood": [
+   "apaisant",
+   "frais"
+  ],
+  "description": "Bandes aquatiques pour piscines et espaces bien-être."
+ },
+ {
+  "slug": "foret-brume",
+  "title": "Forêt — Brume",
+  "categories": [
+   "forets",
+   "nature",
+   "paysages"
+  ],
+  "mood": [
+   "apaisant",
+   "naturel"
+  ],
+  "description": "Sapins en couches dans la brume matinale."
+ },
+ {
+  "slug": "botanique-nuit",
+  "title": "Botanique — Nuit verte",
+  "categories": [
+   "botanique",
+   "nature"
+  ],
+  "mood": [
+   "luxe",
+   "profond"
+  ],
+  "description": "Feuillage dense sur fond vert profond."
+ },
+ {
+  "slug": "botanique-clair",
+  "title": "Botanique — Jardin clair",
+  "categories": [
+   "botanique",
+   "nature",
+   "enfance"
+  ],
+  "mood": [
+   "doux",
+   "lumineux"
+  ],
+  "description": "Feuillage pastel sur fond crème."
+ },
+ {
+  "slug": "arches-sable",
+  "title": "Arches — Sable",
+  "categories": [
+   "minimalisme",
+   "architecture"
+  ],
+  "mood": [
+   "doux",
+   "élégant"
+  ],
+  "description": "Arches emboîtées, format portrait."
+ },
+ {
+  "slug": "confettis",
+  "title": "Confettis",
+  "categories": [
+   "enfance",
+   "pedagogie"
+  ],
+  "mood": [
+   "ludique",
+   "joyeux"
+  ],
+  "description": "Formes colorées pour crèches et salles de jeux."
+ },
+ {
+  "slug": "houle",
+  "title": "Houle",
+  "categories": [
+   "oceans",
+   "minimalisme"
+  ],
+  "mood": [
+   "calme",
+   "apaisant"
+  ],
+  "description": "Lignes de houle, effet panoramique."
+ }
+]
